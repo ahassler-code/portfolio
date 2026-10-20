@@ -1,0 +1,114 @@
+body {
+    background-color:#f2e9e4;
+    text-align:center;
+    color:#22223b;
+}
+
+nav {
+    background-color:#4a4e69;
+    color:#f2e9e4;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color:#f2e9e4;
+}
+
+p, li {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+    text-align:left;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.ibm-plex-serif-light {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-medium {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.email {
+    color:#4a4e69;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.profile {
+    max-width:10%;
+    border-radius:100%;
+}
+
+.banner {
+    max-width:40%;
+    border-radius:10%;
+}
